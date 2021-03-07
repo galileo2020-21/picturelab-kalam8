@@ -98,5 +98,33 @@ public class IntArrayWorker
       }
     }
   }
- 
+public int getCount(int target){ //counts how many target is found in array
+  int count = 0;
+  for(int[] row : matrix){
+    for(int cell : row){
+      if(cell == target){
+        count ++;
+      }
+    }
+  }
+  return count;
+}
+public int getLargest(){ //returns largest value
+  int largest = 0;
+  for(int[] row : matrix){
+    for(int cell : row){
+      if(cell > largest){
+        largest = cell;
+      }
+    }
+  }
+  return largest;
+}
+public getColTotal(int targetCol){ //returns total of integers in specific column
+  int total = 0;
+  for(int i = 0; i < matrix.length; i++){
+     total += matrix[i][targetCol];
+   }
+  }
+  return total;
 }

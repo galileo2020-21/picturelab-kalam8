@@ -1,37 +1,37 @@
 Activity 1
 
 1. How many bits does it take to represent the values from 0 to 255?
-
+  It takes 8 bits to represent the values from 0 to 255.
 2. How many bytes does it take to represent a color in the RGB color model?
-
+  It takes 3 bytes to represent a color in the RGB color model.
 3. How many pixels are in a picture that is 640 pixels wide and 480 pixels high?
-
+  There are 307200 pixels in a picture 640 pixels high and 48 pixels wide.
 
 Activity 2
 
 1. How can you make pink?
-
+  Have every slider at max except the Green one(which should be lower). For example, Red: 255, Green: 181, Blue: 255.
 2. How can you make yellow?
-
+   Have every slider at max except blue. For example, Red: 255, Green: 255, Blue: 159.
 3. How can you make purple?
-
+  Have green the lowest value of the sliders. Red should be set at higher than green but lower or equal to the value of the blue slider. The blue slider must be greater than or equal to the green slider. For example, Red: 100, Green: 36, Blue: 159.
 4. How can you make white?
-
+  Set every slider to 255.
 
 Activity 3
 
 1. What is the row index for the top left corner of the picture?
-
+  0
 2. What is the column index for the top left corner of the picture?
-
+  0
 3. The width of this picture is 640. What is the right most column index?
-
+  639
 4. The height of this picture is 480. What is the bottom most row index?
-
+  479
 5. Does the row index increase from left to right or top to bottom?
-
+  Left to Right
 6. Does the column index increase from left to right or top to bottom?
-
+  Top to Bottom
 
 Activity 7
 
@@ -39,7 +39,10 @@ Activity 7
   for (int row = 7; row < 17; row++)
     for (int col = 6; col < 15; col++)
 
+  90
+
 2. How many times would the body of this nested for loop execute?
   for (int row = 5; row <= 11; row++)
     for (int col = 3; col <= 18; col++)
 
+112
